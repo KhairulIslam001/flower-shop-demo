@@ -1,4 +1,50 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* header section css */
+.header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.head-section {
+    display: flex;
+}
+
+.head-sectionLeft {
+    padding: 150px 200px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.header-des {
+    margin-top: 0;
+    margin-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.head-sectionRight {
+    padding: 50px 200px 0px 0px;
+    margin-left: 0px;
+    height: 800px;
+    /* margin-bottom: 0px; */
 }
