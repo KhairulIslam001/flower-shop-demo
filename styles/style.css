@@ -7,6 +7,7 @@ body {
 /* header section css */
 .header {
     background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 178px;
 }
 
 .head-section {
@@ -51,8 +52,10 @@ body {
 
 /* main section part starts from here */
 
+
+/* feature flower section */
 section {
-    margin-top: 178px;
+    margin-top: 128px;
 }
 
 .feature {
@@ -110,4 +113,121 @@ section {
     color: #272727;
     font-size: 24px;
     font-weight: 700;
+}
+
+
+/* deal section starts from here */
+.sale {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    gap: 186px;
+    justify-content: center;
+}
+
+.sale-sectionLeft {
+    text-align: center;
+    padding: 230px 0px 162px 395px;
+}
+
+.sale-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.sale-title>span {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sale-des {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.sale-sectionRight {
+    padding: 100px 429px 100px 0px;
+}
+
+
+/* instagram section */
+
+.instagram {
+    text-align: center;
+}
+
+.insta-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.insta-des {
+    margin-top: 0px;
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.insta-flower {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 0px;
+}
+
+/* latest-deal section starts from here */
+
+
+
+
+
+
+
+
+
+
+
+/* footer section starts from here */
+.footer {
+    margin-top: 128px;
+    background: #111010;
+    text-align: center;
+    padding: 128px 650px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-title>span {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-des {
+    color: #ffffffe6;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+#footer-two {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
 }
