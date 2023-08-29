@@ -116,6 +116,23 @@ section {
 }
 
 
+/* optional section starts from here */
+.optional {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    border-radius: 8px;
+    background: #2727270d;
+    margin: 0px 240px;
+    padding: 86px 175px 86px 175px ;
+
+}
+
+.div {
+    text-align: center;
+}
+
+
 /* deal section starts from here */
 .sale {
     border-radius: 8px;
@@ -219,7 +236,7 @@ section {
     border: none;
 }
 
-.Latestdeal-input{
+.Latestdeal-input {
     display: flex;
     justify-content: center;
     gap: 16px;
