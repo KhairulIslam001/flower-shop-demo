@@ -174,31 +174,68 @@ section {
 
 /* free deal section, extra mark */
 
-.free{
+.free {
     display: flex;
-    gap: 186px;
+    gap: 100px;
     justify-content: center;
-    background-color:linen;
+    background-color: linen;
     padding: 100px;
 }
 
-.free-sectionRight{
+
+.freeDeal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.freeDeal-title>span {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.freeDeal-des {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 32px
+}
+
+.tulip-bouquet,
+.rose-bouquet {
+    text-align: center;
+    margin-top: 0px;
+    color: #981a1a;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    /* margin-top: 32px; */
+}
+
+.free-sectionRight {
     display: flex;
-    gap: 100px;
+    gap: 50px;
+}
+
+.free-sectionLeft {
+    padding: 110px 0px;
 }
 .plus {
     height: 100px;
+    padding: 200px 0px;
 }
 
 .tulip,
 .rose {
     height: 350px;
-    width: 250px;
+    width: 270px;
     padding: 30px;
     border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
+    background: rgba(209, 20, 33, 0.15);
 }
-
 
 
 
