@@ -124,7 +124,7 @@ section {
     border-radius: 8px;
     background: #2727270d;
     margin: 0px 240px;
-    padding: 86px 175px 86px 175px ;
+    padding: 86px 175px 86px 175px;
 
 }
 
@@ -171,6 +171,39 @@ section {
 .sale-sectionRight {
     padding: 100px 429px 100px 0px;
 }
+
+/* free deal section, extra mark */
+
+.free{
+    display: flex;
+    gap: 186px;
+    justify-content: center;
+    background-color:linen;
+    padding: 100px;
+}
+
+.free-sectionRight{
+    display: flex;
+    gap: 100px;
+}
+.plus {
+    height: 100px;
+}
+
+.tulip,
+.rose {
+    height: 350px;
+    width: 250px;
+    padding: 30px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+
+
+
+
+
+
 
 
 /* instagram section */
