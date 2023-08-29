@@ -4,7 +4,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* header section css */
+                         /* header section css */
 .header {
     background: rgba(229, 84, 115, 0.10);
     margin-bottom: 178px;
@@ -50,7 +50,7 @@ body {
     /* margin-bottom: 0px; */
 }
 
-/* main section part starts from here */
+                   /* main section part starts from here */
 
 
 /* feature flower section */
@@ -238,11 +238,6 @@ section {
 }
 
 
-
-
-
-
-
 /* instagram section */
 
 .instagram {
@@ -262,6 +257,7 @@ section {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 48px;
+    padding: 0px 663px;
 }
 
 .insta-flower {
@@ -314,12 +310,7 @@ section {
 }
 
 
-
-
-
-
-
-/* footer section starts from here */
+                  /* footer section starts from here */
 .footer {
     margin-top: 128px;
     background: #111010;
