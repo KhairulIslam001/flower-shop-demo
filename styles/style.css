@@ -186,9 +186,45 @@ section {
 
 /* latest-deal section starts from here */
 
+.latest-deals {
+    text-align: center;
+    background-image: url(../styles/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 287px;
+}
 
+#latestDeal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
 
+#latestDeal-des {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
 
+.email-input {
+    color: #27272799;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 23px 512px 22px 22px;
+    border: none;
+}
+
+.Latestdeal-input{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 0px;
+}
 
 
 
